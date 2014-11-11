@@ -74,7 +74,7 @@ button:focus { outline: none !important; }
 
 .small-menu { margin-top: 30px; font-size: 17px; }
 .small-menu ul { padding: 0; }
-.small-menu ul li a { float: right; }
+.small-menu ul li a { float: right; padding-left: 10px; }
 
 .large-menu { font-size: 20px; margin-bottom: 20px; }
 .large-menu .nav-custom .link-dropdown { background-color: #339933; text-decoration: none; color: white; }
@@ -110,7 +110,7 @@ button:focus { outline: none !important; }
 .main-content .trees .thumb-custom .hit, .main-content .trees-in-pot .thumb-custom .hit, .main-content .accessories .thumb-custom .hit { background: url(../img/base/hit.png); }
 .main-content .trees .thumb-custom .hit:after, .main-content .trees-in-pot .thumb-custom .hit:after, .main-content .accessories .thumb-custom .hit:after { content: "Хит"; }
 .main-content .overview { margin-top: 20px; margin-bottom: 17px; }
-.main-content .overview .overview-wrap { display: flex; }
+.main-content .overview .overview-wrap { display: -ms-flexbox; -ms-box-orient: horizontal; display: -webkit-flex; display: -moz-flex; display: -ms-flex; display: flex;  }
 .main-content .overview .overview-wrap .advice-overview { margin-right: 20px; }
 .main-content .overview .overview-wrap .advice-overview, .main-content .overview .overview-wrap .encyclopedia-overview { background-color: #f2f2f2; -webkit-border-radius: 10px; -moz-border-radius: 10px; -ms-border-radius: 10px; -o-border-radius: 10px; border-radius: 10px; padding: 20px 15px; }
 .main-content .overview .overview-wrap .advice-overview h4.caps, .main-content .overview .overview-wrap .encyclopedia-overview h4.caps { color: #555555; font-style: normal; }
@@ -219,8 +219,8 @@ button:focus { outline: none !important; }
 .contacts .contacts-info .email-contact { color: #3399cc; font-weight: normal; text-transform: none; }
 .contacts .contacts-info .depot, .contacts .contacts-info .markets-adress { margin-top: 40px; }
 
-.delivery .delivery-content { padding-right: 240px; margin-top: 20px; }
-.delivery .delivery-content img { margin-right: -240px; float: right; }
+.delivery .delivery-content { margin-top: 20px; }
+.delivery .delivery-content img { float: right; }
 .delivery .delivery-content .delivery-info { margin-top: 20px; }
 .delivery .delivery-content .delivery-info table thead { font-size: 18px; font-weight: bold; text-transform: uppercase; }
 .delivery .delivery-content .delivery-info table thead th { padding-left: 0; padding-top: 0; border-bottom: none; }
